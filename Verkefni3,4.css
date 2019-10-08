@@ -44,13 +44,14 @@ p{
 
 
 .Main{
-    font-family: fiskar;
+    font-family: 'Fjalla One', sans-serif;
     margin: 16px;
     text-align: center;
     font-size: 70px;
     color: orange;
 }
 .Main2{
+    font-family: 'Fjalla One', sans-serif;
     padding: 20px;
 }
 nav ul{
@@ -63,7 +64,7 @@ nav ul{
 }
 
  nav li{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
      display: grid;
      display: inline-block;
      margin-bottom: 40px;
@@ -103,12 +104,13 @@ footer ul{
     text-align: center;
 }
 footer ul li{
+    
     line-height: 80px;
 }
 
 footer li{
     
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     display: grid;
     display: inline-block;
     margin-top: 8px;
@@ -120,6 +122,7 @@ footer li{
     word-spacing: 20x;
 }
 .saga{
+    font-family: 'Fjalla One', sans-serif;
     margin: 15px;
     text-align: left;
     word-spacing: 10px;
@@ -127,12 +130,14 @@ footer li{
     
 }
 .linkur{
+    font-family: 'Fjalla One', sans-serif;
     margin: 15px;
     text-align: left;
     
 }
 
 .titill1{
+    font-family: 'Fjalla One', sans-serif;
     margin: 15px;
     font-size: 15px;
     text-align: left;
@@ -141,7 +146,7 @@ footer li{
 
 .Texti{
     
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     color: black;
     margin: 10px;
     text-align: left;
@@ -151,6 +156,7 @@ footer li{
 }
 
 .titill2{
+    font-family: 'Fjalla One', sans-serif;
     color: white;
     margin: 10px;
     font-size: 15px;
@@ -158,7 +164,7 @@ footer li{
 }
 
 .midja{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     color: black;
     justify-content: center;
     margin: 30px;
@@ -170,7 +176,7 @@ footer li{
 }
 
 .tilgangslaus{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     color: white;
     margin: 10px;
     text-align: left;
@@ -179,7 +185,7 @@ footer li{
 }
 
 .titill3{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     color: white;
     margin: 10px;
     font-size: 15px;
