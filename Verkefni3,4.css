@@ -1,0 +1,245 @@
+body, html{
+    height: 100;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: radial-gradient( #3498db, #ecf0f1 , #e67e22, #f1c40f, #d35400);
+    background-size: 400%;
+    animation: bganimation 15s infinite;
+}
+
+@keyframes bganimation {
+    0%{
+        background-position: 0% 60%;
+
+    }
+    50%{
+        background-position: 110% 60%;
+
+    }
+    100%{
+        background-position: 0% 60%;
+
+    }
+}
+
+
+.allt{
+    
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 56% 16% 16%;
+    grid-template-rows: 8% 35% auto 15%;
+    grid-template-areas:
+      "nav nav nav"
+      "header header header"
+      "main aside article"
+      "footer footer footer";
+
+}
+
+
+
+
+
+
+p{
+    margin: 0px;
+    text-align: center;
+}
+
+
+
+.Main{
+    font-family: 'Anton', sans-serif;
+    margin: 0px 0px 0px;
+    text-align: left;
+    font-size: 500%;
+    color: orange;
+}
+.Main2{
+    margin-bottom: 50px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+
+nav ul{
+    margin: 12px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    
+}
+nav ul li{
+    line-height: 35px;
+}
+
+ nav li{
+     display: grid;
+     display: inline;
+     padding: 70px;
+}
+
+
+footer ul{
+    margin: 30px 0;
+    padding: 0px;
+    list-style: none;
+    
+}
+footer ul li{
+    line-height: 50px;
+}
+footer li{
+    display: grid;
+    display: inline;
+    padding: 100px;
+    margin: 50px 0;
+    
+    
+    
+    
+}
+a{
+    font-family: 'Big Shoulders Display', cursive;
+    color: rgb(255, 60, 0);
+}
+
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+
+.bil{
+    word-spacing: 20x;
+}
+.saga{
+    font-family: 'Acme', sans-serif;
+    margin: 15px;
+    text-align: left;
+    word-spacing: 10px;
+    line-height: 20px;
+    
+}
+.linkur{
+    margin: 15px;
+    text-align: left;
+    
+}
+
+.titill1{
+    font-family: 'Acme', sans-serif;
+    margin: 15px;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.Drekar{
+    font-family: 'Acme', sans-serif;
+    margin: 10px;
+    text-align: left;
+    word-spacing: 4px;
+    line-height: 20px
+
+}
+
+.titill2{
+    font-family: 'Acme', sans-serif;
+    margin: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.midja{
+    font-family: 'Acme', sans-serif;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+    border: dashed whitesmoke;
+    
+}
+
+.tilgangslaus{
+    font-family: 'Acme', sans-serif;
+    margin: 10px;
+    text-align: left;
+    word-spacing: 10px;
+    line-height: 20px;
+}
+
+.titill3{
+    font-family: 'Acme', sans-serif;
+    margin: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+header{
+    grid-area: header;
+    border-color: solid black;
+    border: solid 1px;
+    background-image: linear-gradient( 45deg,white, yellow 100%)
+}
+
+nav{
+    grid-area: nav;
+    border-color: solid black;
+    border: solid 1px;
+    background-image: linear-gradient(orange, white, orange)
+    
+
+}
+
+aside{
+    grid-area: aside;
+    border-color: solid black;
+    border: solid 1px;
+    margin: 0px;
+    background-image: repeating-radial-gradient( orange, orange 10px, white 10px, white 20px)
+   
+
+}
+
+main{
+    grid-area: main;
+    
+    
+    
+    
+
+}
+
+article{
+    grid-area: article;
+    border-color: solid black;
+    border: solid 1px;
+    margin: 0px;
+    background-image: linear-gradient(135deg, white, blue 90%)
+}
+
+footer{
+    grid-area: footer;
+    border-color: solid black;
+    border: solid 1px;
+    background-image: linear-gradient( blue, white 30px)
+
+}
