@@ -1,0 +1,201 @@
+body, html{
+    height: 100%;
+    margin: 4px 4px;
+
+}
+
+
+
+
+.allt{
+    
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 25% 8% auto 8%;
+    grid-template-areas:
+      "header header header"
+      "nav nav nav"
+      "side1 main article"
+      "footer footer footer";
+
+}
+
+
+
+
+
+
+p{
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.Main{
+    margin: 16px;
+    text-align: center;
+    font-size: 70px;
+    color: orange;
+}
+.Main2{
+    text-align: center;
+}
+nav ul{
+    margin: 12px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    
+}
+
+ nav li{
+     display: grid;
+     display: inline-block;
+     margin-right: 76px;
+     margin-left: 76px;
+     
+     
+   
+    
+    
+    
+    
+    
+}
+
+
+footer ul{
+    margin: 12px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+footer li{
+    display: grid;
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px
+    
+    
+}
+
+.bil{
+    word-spacing: 20x;
+}
+.saga{
+    margin: 15px;
+    text-align: left;
+    word-spacing: 10px;
+    line-height: 20px;
+    
+}
+.linkur{
+    margin: 15px;
+    text-align: left;
+    
+}
+
+.titill1{
+    margin: 15px;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.Drekar{
+    margin: 10px;
+    text-align: left;
+    word-spacing: 4px;
+    line-height: 20px
+
+}
+
+.titill2{
+    margin: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.midja{
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+    border: solid black;
+    border-color: solid black;
+}
+
+.tilgangslaus{
+    margin: 10px;
+    text-align: left;
+    word-spacing: 10px;
+    line-height: 20px;
+}
+
+.titill3{
+    margin: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+header{
+    grid-area: header;
+    border-color: solid black;
+    border: solid 1px;
+    
+    
+    
+    
+
+}
+
+nav{
+    grid-area: nav;
+    border-color: solid black;
+    border: solid 1px;
+    
+
+}
+
+aside{
+    grid-area: side1;
+    border-color: solid black;
+    border: solid 1px;
+    margin: 0px;
+
+}
+
+main{
+    grid-area: main;
+    border-color: solid black;
+    border: solid 1px;
+    
+
+}
+
+article{
+    grid-area: article;
+    border-color: solid black;
+    border: solid 1px;
+    margin: 0px;
+}
+
+footer{
+    grid-area: footer;
+    border-color: solid black;
+    border: solid 1px;
+    
+
+}
