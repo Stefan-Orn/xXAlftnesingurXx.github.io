@@ -46,7 +46,7 @@ p{
 
 
 .Main{
-    font-family: stefan; 
+    font-family: 'Grenze', serif;
     margin: 16px;
     text-align: center;
     font-size: 60px;
@@ -54,6 +54,7 @@ p{
     text-decoration: underline;
 }
 .Main2{
+    font-family: 'Grenze', serif;
     margin: -10px;
     text-align: center;
 }
@@ -68,6 +69,7 @@ nav ul{
 }
 
  nav li{
+     font-family: 'Grenze', serif;
      display: grid;
      display: inline-block;
      margin-right: 20px;
@@ -92,7 +94,7 @@ footer ul{
 }
 
 footer li{
-    
+    font-family: 'Grenze', serif;
     display: grid;
     display: inline-block;
     margin-right: 70px;
@@ -106,7 +108,7 @@ footer li{
     word-spacing: 20x;
 }
 .saga{
-    
+    font-family: 'Grenze', serif;
     margin: 15px;
     text-align: left;
     word-spacing: 10px;
@@ -139,6 +141,7 @@ a:hover{
 }
 
 .titill1{
+    font-family: 'Grenze', serif;
     margin: 15px;
     font-size: 15px;
     text-align: left;
@@ -147,7 +150,7 @@ a:hover{
 }
 
 .Drekar{
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Grenze', serif;
     color: white;
     margin: 10px;
     text-align: left;
@@ -160,7 +163,7 @@ a:hover{
 }
 
 .Drekar2{
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Grenze', serif;
     color: white;
     margin: 10px;
     text-align: left;
@@ -170,7 +173,7 @@ a:hover{
 }
 
 .titill2{
-    font-family: stefan;
+    font-family: 'Grenze', serif;
     margin: 10px;
     font-size: 15px;
     text-align: left;
@@ -179,7 +182,7 @@ a:hover{
 }
 
 .midja{
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Grenze', serif;
     justify-content: center;
     margin: 30px;
     padding: 30px;
@@ -189,6 +192,7 @@ a:hover{
 }
 
 .tilgangslaus{
+    font-family: 'Grenze', serif;
     margin: 10px;
     text-align: left;
     word-spacing: 10px;
@@ -197,6 +201,7 @@ a:hover{
 }
 
 .titill3{
+    font-family: 'Grenze', serif;
     margin: 10px;
     font-size: 15px;
     text-align: left;
