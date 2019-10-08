@@ -1,0 +1,268 @@
+body, html{
+    height: 100%;
+    margin: 0px 0px;
+    background-image: url(https://1.bp.blogspot.com/-V3NL0SwdStU/XMxSZ1LhjjI/AAAAAAAADtA/zuzYcEM74tohTZMTi5z3nKLngGotfGsxQCLcBGAs/s2048/SpaceX%2BStarship%2Bby%2BSam%2BTaylor%2B-%2Bfront.jpg);
+
+    background-repeat: no-repeat;
+
+}
+
+@font-face{
+    font-family: stefan;
+    src: url('nasa-free/nasalization-rg.ttf');
+    src: url('space-age/space age.ttf');
+
+
+    
+}
+
+
+.allt{
+    
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns:  70% 30%;
+    grid-template-rows: 25% 8% auto 8%;
+    grid-template-areas:
+      "header header"
+      "nav nav"
+      "main article"
+      "footer footer";
+
+}
+
+
+
+
+
+
+p{
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.Main{
+    font-family: stefan; 
+    margin: 16px;
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+    text-decoration: underline;
+}
+.Main2{
+    margin: -10px;
+    text-align: center;
+}
+
+nav ul{
+    margin: 12px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    
+    
+}
+
+ nav li{
+     display: grid;
+     display: inline-block;
+     margin-right: 20px;
+     margin-left: 20px;
+     
+     
+     
+   
+    
+    
+    
+    
+    
+}
+
+
+footer ul{
+    margin: 12px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+footer li{
+    
+    display: grid;
+    display: inline-block;
+    margin-right: 70px;
+    margin-left: 70px;
+    
+    
+    
+}
+
+.bil{
+    word-spacing: 20x;
+}
+.saga{
+    
+    margin: 15px;
+    text-align: left;
+    word-spacing: 10px;
+    line-height: 20px;
+    color: white;
+    
+    
+}
+.linkur{
+    margin: 15px;
+    text-align: left;
+    
+}
+
+a{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(186, 186, 240);
+}
+
+
+.nidur{
+    color: white;
+}
+
+.titill1{
+    margin: 15px;
+    font-size: 15px;
+    text-align: left;
+    color: white;
+
+}
+
+.Drekar{
+    font-family: 'Big Shoulders Text', cursive;
+    color: white;
+    margin: 10px;
+    text-align: left;
+    word-spacing: 4px;
+    line-height: 20px
+    
+    
+    
+
+}
+
+.Drekar2{
+    font-family: 'Big Shoulders Text', cursive;
+    color: white;
+    margin: 10px;
+    text-align: left;
+    word-spacing: 4px;
+    line-height: 20px;
+
+}
+
+.titill2{
+    font-family: stefan;
+    margin: 10px;
+    font-size: 15px;
+    text-align: left;
+    color: white;
+
+}
+
+.midja{
+    font-family: 'Big Shoulders Text', cursive;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+    border: solid white;
+    border-color: solid white;
+    color: white;
+}
+
+.tilgangslaus{
+    margin: 10px;
+    text-align: left;
+    word-spacing: 10px;
+    line-height: 20px;
+    color: rgb(255, 174, 0);
+}
+
+.titill3{
+    margin: 10px;
+    font-size: 15px;
+    text-align: left;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+header{
+    grid-area: header;
+    border-color: solid;
+    border: solid 1px;
+    
+    
+    
+    
+    
+    
+
+}
+
+nav{
+    grid-area: nav;
+    border: solid 1px;
+    
+    
+    
+
+}
+
+aside{
+    grid-area: side1;
+    border-color: solid black;
+    border: solid 1px;
+    margin: 0px;
+
+}
+
+main{
+    grid-area: main;
+   
+    
+    
+    
+
+}
+
+article{
+    grid-area: article;
+    border-color: solid black;
+    border: solid 1px;
+    margin: 0px;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/Es3jQ4u4hEcuAiBx2KtRPc-320-80.jpg);
+}
+
+footer{
+    grid-area: footer;
+    
+   
+    
+    
+
+}
