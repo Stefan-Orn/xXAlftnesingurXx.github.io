@@ -39,6 +39,12 @@ a{
 a:hover{
     color: gray;
 }
+a:visited{
+    color: pink;
+}
+a:active{
+    color: red;
+}
 .box{
     display: inline;
     border-right: solid white;
