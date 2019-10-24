@@ -34,6 +34,16 @@ a{
     text-decoration: none;
     color: white;
 }
+}
+a:hover{
+    color: yellow;
+}
+a:visited{
+    color: pink;
+}
+a:active{
+    color: red;
+}
 /* grid */
 .col-1 {
     display: grid;
