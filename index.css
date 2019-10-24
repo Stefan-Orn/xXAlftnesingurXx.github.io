@@ -1,0 +1,82 @@
+* { box-sizing: border-box }
+
+body {
+    background-image: linear-gradient(blue, rgb(10, 30, 85));
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.container {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+.shit{
+    background-image: linear-gradient(orange,yellow);
+}
+section{
+    color: black;
+    padding: 10px;
+}
+header{
+    line-height: 50px;
+}
+a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+/* grid */
+.col-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap-4 {
+    grid-gap: 4em
+}
+.verkefni{
+    margin-left: 360px;
+}
+.topnav{
+    margin-top: 70px;
+    word-spacing: 100px;
+    float:right;
+    display:inline;
+    
+}
+
+blockquote{
+    padding: 18px;
+    background-color: rgba(255, 255, 255, 0.267);
+}
+.copy{
+    text-align: center;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+a:hover{
+    color: lightblue;
+}
