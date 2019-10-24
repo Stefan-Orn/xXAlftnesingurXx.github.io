@@ -27,10 +27,9 @@ h1 {
     font-weight: 300;
     font-size: 2.5em;
 }
-.faerth1{
+div span{
     position: relative;
-    top: 60px;
-}
+    top: 80px;
 a{
     text-decoration: none;
     color: white;
