@@ -1,0 +1,158 @@
+* { box-sizing: border-box }
+
+body {
+    background-image: linear-gradient(rgb(73, 73, 224), rgb(8, 8, 83));
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+}
+/* Kallin sem eltir*/
+.topbutt{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    width: 5%;
+    border-radius: 50%;
+    color: blue;
+    background-color: white;
+    
+  }
+
+
+/*Honum líkur hér*/
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+div span{
+    justify-content: bottom;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 33px;
+}
+a:hover{
+    color: gray;
+}
+.box{
+    display: inline;
+    border-right: solid white;
+    padding: 10px;
+    margin: 0px;
+    
+}
+.boxd{
+    display: inline;
+    border-right: solid white;
+    padding: 10px;
+    margin: 0px;
+}
+.boxh{
+    padding: 18px;
+    margin: 0px;
+}
+
+
+.container { 
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+/* Hér er allt sem er inni í headernum */
+header{
+    color: white;
+    line-height: 90px;
+}
+.kassi1{
+    padding: 10px;
+    width: 100%;
+    background-image: linear-gradient(rgb(255, 94, 0), rgb(255, 136, 0));
+
+}
+.verkefni{
+    margin-top: 13px;
+    text-align: right;
+}
+.topnav{
+    margin: 0;
+    word-spacing: 40px;
+    text-align: right;
+    
+}
+
+.innermenu{
+    text-align: center;
+    position: relative;
+    top: 25px;
+    padding: 10px;
+    background-color: blue;
+}
+/* Hér er allt sem er inn í kassa2 næsta sectionið*/
+.kassi2{
+    padding: 10px;
+    width: 100%;
+    background-image: linear-gradient(rgb(255, 136, 0), rgb(255, 187, 0));
+}
+/* Nú er komið að Óskunum þrem */
+.kassi3{
+    padding: 160px;
+    background-image: linear-gradient(rgb(255, 187, 0),rgb(255, 175, 1));
+}
+/* Hér er allt sem er inní í Adam og....*/
+.kassi4{
+    padding: 10px;
+    background-image: linear-gradient(rgb(255, 175, 1),rgb(228, 228, 18));
+}
+/* Hér er allt sem er inni í Alnæmi */
+.kassi5{
+    padding:10px;
+    background-image: linear-gradient(rgb(228, 228, 18),rgb(199, 199, 33));
+}
+/* Hér er allt sem er inni í Jólakveðja */
+.kassi6{
+    padding: 10px;
+    background-image: linear-gradient(rgb(199, 199, 33),rgb(184, 184, 34));
+
+}
+/* Hér er allt sem er inni í Faðirvorinu */
+.kassi7{
+    padding: 10px;
+    background-image: linear-gradient(rgb(184, 184, 34),rgb(168, 168, 46));
+}
+/*Hér kemur allt sem er inni í footernum */
+footer{
+    color: white;
+}
+footer ul{
+    list-style: none;
+}
+.copy{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap-4 {
+    grid-gap: 4em
+}
