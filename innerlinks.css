@@ -45,12 +45,6 @@ a:visited{
 a:active{
     color: red;
 }
-.pila:hover{
-    color: lightblue;
-}
-.pila:active{
-    color: red;
-}
     
 .box{
     display: inline;
