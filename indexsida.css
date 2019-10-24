@@ -42,7 +42,7 @@ a:visited{
     color: pink;
 }
 a:active{
-    color: blue;
+    color: red;
 }
 /* grid */
 .col-1 {
