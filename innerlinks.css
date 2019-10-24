@@ -37,7 +37,7 @@ a{
     margin-left: 33px;
 }
 a:hover{
-    color: gray;
+    color: yellow;
 }
 a:visited{
     color: pink;
