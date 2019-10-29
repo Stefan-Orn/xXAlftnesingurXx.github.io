@@ -102,9 +102,6 @@ header h1{
     background-color: blue;
 }
 /* Hér er allt sem er inn í kassa2 næsta sectionið*/
-main h1{
-    margin-top: 0px;
-}
 .kassi2{
     height: 100vh;
     padding: 10px;
