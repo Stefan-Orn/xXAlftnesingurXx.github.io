@@ -1,0 +1,83 @@
+* { box-sizing: border-box }
+
+body{
+    height: 100%;
+    background-image: linear-gradient(white, rgb(105, 105, 219));
+    margin: 0;
+}
+div span{
+    color: blue;
+    position: relative;
+    top: 45px;
+    left: 100px;
+}
+
+.kassar{ 
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+.kassi1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: white;
+    line-height: 100px;
+
+}
+.kassi2{
+    padding: 40px;
+    background-image: radial-gradient(rgb(55, 173, 212), lightblue)
+}
+.kassi3{
+    margin: 0px;
+    padding: 40px;
+    background-color: white;
+}
+.kassi4{
+    color: white;
+}
+
+.bil{
+    text-align: center;
+    word-spacing: 120px;
+    top: 130px;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, white, blue);
+    color: rgb(5, 34, 44);
+}
+
+
+footer ul{
+    list-style: none;
+}
+footer a{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: lightblue;
+}
+img.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    float: right;
+    right: 100px;
+    top: 60px;
+    width: 100px;
+}
+
+.skipting {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gap-4 {
+    grid-gap: 4em
+}
+
