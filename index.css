@@ -57,8 +57,12 @@ footer a{
 a{
     text-decoration: none;
 }
-a:hover{
-    color: lightblue;
+.w3-dropdown-hover{
+    color: white;
+}
+
+a:visited{
+    color: rgb(4, 4, 59);
 }
 img.sticky{
     position: -webkit-sticky;
