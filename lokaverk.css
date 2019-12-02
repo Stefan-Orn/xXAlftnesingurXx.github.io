@@ -1,0 +1,1169 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+/* allt sem er í body */
+body{
+    background-color: rgb(49, 47, 47);
+    margin: 0 auto;
+    padding: 0;
+}
+span img{
+    width: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+/*allt sem er inni í headernum */
+header{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    color: white;
+    background-image: url(Myndir/backaground.jpg);
+    
+}
+header h2{
+
+    color: black;
+
+}
+.box1{
+    padding: 10px;
+    margin: 15px;
+    background-image: linear-gradient(yellow, white);
+    width: 200px;
+    height: 100px;
+}
+.box2{
+   padding: 10px;
+   margin: 15px;
+   background-image: linear-gradient(yellow, white);
+   width: 200px;
+   height: 100px; 
+}
+.hreyfing figure .box1{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hreyfing figure:hover .box1{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+header blockquote{
+    font-family: 'Anton', sans-serif;
+    font-size: 10px;
+    width: 200px;
+
+
+}
+
+/* allt sem er inni í nav */
+nav{
+    width: auto;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+
+.litur{
+    background-color: yellow;
+    color: yellow;
+}
+.skipting{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+
+    
+}
+nav img{
+    width: 50px;
+    
+}
+nav a{
+    font-family: 'Alata', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: yellow;
+    background-size: 50px;
+}
+
+
+  
+/* */
+/* allt sem er inn í main */
+main{
+    height: auto;
+    padding: 30px;
+    font-family: 'Alata', sans-serif;
+    color: white;
+    background-color: rgb(44, 42, 42);
+
+}
+main blockquote{
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.349);
+    border-radius: 10px;
+    
+}
+.green{
+    background-color: green;
+    color: green;
+}
+/* allt sem er í aside */
+aside{
+    font-family: 'Alata', sans-serif;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(44, 43, 43);
+}
+.skipta{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+aside img{
+    padding: 10px;
+    background-image: linear-gradient(yellow, grey);
+    width: 250px;
+    height: 250px;
+    
+}
+.lit{
+    color: yellow;
+}
+.nofn{
+    font-size: 15px;
+    color:yellow;
+}
+
+
+/* allt sem er inni í section*/
+article{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    max-width: 100%;
+} 
+.artskipting{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.logo{
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(Myndir/lal.jpg);
+}
+article img{
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+}
+.artskipt{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.litaskipt{
+    background-color: yellow;
+}
+.hover13 figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 2.5s;
+	animation: flash 2.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+/* allt sem er inni í section 2 */
+.sect2{
+    padding: 15px;
+    color:white;
+    font-family: 'Alata', sans-serif;
+
+}
+.sect2 h1{
+    color: yellow;
+}
+/* allt sem er í section 3 */
+.sect3{
+    font-family: 'Alata', sans-serif;
+    padding: 50px;
+    color: white;
+    background-image: url(Myndir/skogur.jpg)
+}
+.sect3 blockquote{
+    border-radius: 10px;
+    padding:10px;
+    background-image: url(Myndir/eyðimörj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+/*allt sem er í section 4*/
+.sect4{
+    background-image: url(Myndir/Erangle);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color: white;
+}
+.sect4 h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+.sect4 h2{
+    font-family: 'Alata', sans-serif;
+}
+
+.sect4colmun{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1,1fr);
+}
+.sect4 blockquote{
+    border-radius: 10px;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+.miramar{
+    padding: 10px;
+    background-image: url(Myndir/Miramrar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sanhok{
+    padding: 10px;
+    background-image: url(Myndir/Sanhok.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vikendi{
+    padding: 10px;
+    background-image: url(Myndir/Vikendiu.jpg);
+}
+/*lita skipting*/
+.liturvidsect5{
+    color: yellow;
+    background-color: yellow;
+
+}
+/* allt sem er í section 5*/
+.sect5{
+    padding: 20px;
+    color: white;
+    background-color: rgb(24, 23, 23);
+
+}
+.sect5 h1{
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+}
+.sect5 h2{
+    font-family: 'Alata', sans-serif;
+
+}
+/* allt sem er inni í footer */
+footer{
+    font-family: 'Anton', sans-serif;
+    padding: 30px;
+    color: white;
+}
+footer p{
+    font-size: 10px;
+}
+footer blockquote{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.253); 
+    padding: 10px;
+}
+.hr1{
+    border-top: 10px solid grey;
+    border-radius: 5px;
+}
+.hr2{
+    border-top: 5px solid grey;
+
+}
+.footerskipt{
+    display: grid;
+    grid-template-columns: repeat(7,1fr)
+}
+footer img{
+    width: 30px;
+}
+footer .youtube{
+    height: 30px;
+    width: 60px;
+}
+
+@media screen and (min-width: 30em){
+.midja{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+span img{
+    width: 200px;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+/**/
+/*allt sem er inni í headernum */
+header{
+    width: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    line-height: 100%;
+    color: white;
+    background-image: url(Myndir/backaground.jpg);
+    
+}
+header h2{
+
+    color: black;
+
+}
+.box1{
+    margin:10px;
+    padding: 10px;
+    background-image: linear-gradient(yellow, white);
+    width: 300px;
+    height: 150px;
+}
+.box2{
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(yellow, white);
+    width: 300px;
+    height: 150px;
+}
+.hreyfing figure .box1{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hreyfing figure:hover .box1{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+header blockquote{
+    font-family: 'Anton', sans-serif;
+    width: 300px;
+    font-size: 15px;
+    padding: 30px;
+    line-height: 40px;
+    border-radius: 40px;
+    background-image: linear-gradient(white 90%, yellow 10%);
+
+}
+
+
+
+
+
+/* */
+
+/* allt sem er inni í nav */
+nav{
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+.litur{
+    background-color: yellow;
+    color: yellow;
+}
+.skipting{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.sticky{
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: +1;
+    background-color: rgb(49, 47, 47);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1px;
+
+}
+nav img{
+    width: 70px;
+    
+}
+nav a{
+    font-family: 'Alata', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+nav a:hover{
+    color: black;
+    background-color: yellow;
+}
+.btn {
+    position: relative;
+    display: block;
+    width: auto;
+    margin: 2px;
+    padding: 8px;
+    
+    background-color: rgba(71, 70, 70, 0.486);
+    border: 1px solid yellow;
+  
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    transform-style: flat;
+    transition: all 0.8s ease-out;
+}
+.border{
+    border-color: yellow;
+}
+/* allt sem er inn í main */
+main{
+    height: auto;
+    padding: 30px;
+    font-family: 'Alata', sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 25px;
+
+}
+main blockquote{
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.349);
+    border-radius: 10px;
+    
+}
+.green{
+    background-color: green;
+    color: green;
+}
+/* allt sem er í aside */
+aside{
+    font-family: 'Alata', sans-serif;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(44, 43, 43);
+}
+.skipta{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+aside img{
+    padding: 10px;
+    background-image: linear-gradient(yellow, grey);
+    width: 100%;
+    height: 250px;
+    
+}
+.lit{
+    color: yellow;
+}
+.nofn{
+    font-size: 15px;
+    color:yellow;
+}
+/* allt sem er inni í section1*/
+article{
+    background-color: rgb(46, 44, 44);
+    color: white;
+    max-width: 100%;
+    
+} 
+.artskipting{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.logo{
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(Myndir/lal.jpg);
+}
+article img{
+    margin: 10px;
+    width: 350px;
+    height: 190px;
+}
+.artskipt{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.litaskipt{
+    background-color: yellow;
+}
+/*allt sem er inni i section2 */
+.sect2{
+    font-family: 'Alata', sans-serif;
+    color:white;
+    padding: 10px;
+    background-image: url(Myndir/myndaag.jpg);
+    background-size: cover;
+    object-fit: cover;
+
+    
+}
+.sect2 blockquote{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(104, 100, 100, 0.589);
+}
+
+
+}
+@media screen and (min-width: 37.5em){
+    .midja{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+    span img{
+        width: 140px;
+        margin-left: 230px;
+        margin-top: 40px;
+    }
+    /**/
+    /*allt sem er inni í headernum */
+    header{
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        line-height: 100%;
+        color: white;
+        background-image: url(Myndir/backaground.jpg);
+        
+    }
+    header h2{
+    
+        color: black;
+    
+    }
+    .box1{
+        margin:10px;
+        padding: 10px;
+        background-image: linear-gradient(yellow, white);
+        width: 290px;
+        height: 170px;
+    }
+    .box2{
+        margin: 10px;
+        padding: 10px;
+        background-image: linear-gradient(yellow, white);
+        width: 290px;
+        height: 170px;
+    }
+    .hreyfing figure .box1{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .hreyfing figure:hover .box1{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    
+    header blockquote{
+        font-family: 'Anton', sans-serif;
+        width: auto;
+        font-size: 12px;
+        padding: 20px;
+        line-height: 30px;
+        border-radius: 40px;
+        background-image: linear-gradient(white 90%, yellow 10%);
+    
+    }
+    
+    
+    
+    
+    
+    /* */
+    
+    /* allt sem er inni í nav */
+    nav{
+        font-family: 'Anton', sans-serif;
+        color: white;
+    }
+    .litur{
+        background-color: yellow;
+        color: yellow;
+    }
+    .skipting{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+    }
+    .sticky{
+        margin: 0;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: +1;
+        background-color: rgb(49, 47, 47);
+        position: -webkit-sticky;
+        position: sticky;
+        top: 1px;
+    
+    }
+    nav a{
+        font-family: 'Alata', sans-serif;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    nav a:hover{
+        color: black;
+        background-color: yellow;
+    }
+    /* */
+    /* allt sem er inn í main */
+    main{
+        height: auto;
+        padding: 20px;
+        font-family: 'Alata', sans-serif;
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    main blockquote{
+        padding: 20px;
+        background-color: rgba(128, 128, 128, 0.349);
+        border-radius: 10px;
+        
+    }
+    .green{
+        background-color: green;
+        color: green;
+    }
+    /* */
+    /* allt sem er í aside */
+    aside{
+        font-family: 'Alata', sans-serif;
+        color: white;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(44, 43, 43);
+    }
+    .skipta{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    aside img{
+        padding: 5px;
+        background-image: linear-gradient(yellow, grey);
+        width: 100%;
+        height: 250px;
+        
+    }
+    .lit{
+        color: yellow;
+    }
+    .nofn{
+        font-size: 15px;
+        color:yellow;
+    }
+    .litashit{
+        background-color: lightblue;
+    }
+    
+    /* */
+    /* allt sem er inni í section1*/
+    article{
+        background-color: rgb(46, 44, 44);
+        color: white;
+        max-width: 100%;
+
+    }
+    .artskipting{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .logo{
+        padding: 30px;
+        border-radius: 10px;
+        background-image: url(Myndir/lal.jpg);
+    }
+    article img{
+        margin: 10px;
+        width: 350px;
+        height: 190px;
+    }
+    .artskipt{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .litaskipt{
+        background-color: yellow;
+    }
+    /*allt sem er inn í section 2 */
+    .sect2{
+        font-family: 'Alata', sans-serif;
+        color:white;
+        padding: 10px;
+        background-image: url(Myndir/myndaag.jpg);
+        background-size: cover;
+        object-fit: cover;
+
+        
+    }
+    .sect2 blockquote{
+        border-radius: 20px;
+        padding: 10px;
+        background-color: rgba(104, 100, 100, 0.589);
+    }
+
+
+
+}
+@media screen and (min-width: 48em){
+    .midja{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    
+    }
+    span img{
+        width: 200px;
+        margin-left: 500px;
+        margin-top: 40px;
+    }
+    /**/
+    /*allt sem er inni í headernum */
+    header{
+        padding: 0;
+        margin: 0;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        line-height: 100%;
+        color: white;
+        background-image: url(Myndir/backaground.jpg);
+        
+    }
+    header h2{
+    
+        color: black;
+    
+    }
+    .box1{
+        padding: 10px;
+        background-image: linear-gradient(yellow, white);
+        width: 300px;
+    }
+    .box2{
+       padding: 10px;
+        background-image: linear-gradient(yellow, white);
+        width: 300px; 
+    }
+    .hreyfing figure .box1{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .hreyfing figure:hover .box1{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    
+    header blockquote{
+        font-family: 'Anton', sans-serif;
+        font-size: 15px;
+        width: auto;
+        padding: 20px;
+        line-height: 40px;
+        border-radius: 40px;
+        background-image: linear-gradient(white 90%, yellow 10%);
+    
+    }
+
+    
+    /* allt sem er inni í nav */
+    nav{
+        font-family: 'Anton', sans-serif;
+        color: white;
+    }
+    .litur{
+        background-color: yellow;
+        color: yellow;
+    }
+    .skipting{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+    }
+    .sticky{
+        margin: 0;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: +1;
+        background-color: rgb(49, 47, 47);
+        position: -webkit-sticky;
+        position: sticky;
+        top: 1px;
+    
+    }
+    nav a{
+        font-family: 'Alata', sans-serif;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    nav a:hover{
+        color: black;
+        background-color: yellow;
+    }
+    /* allt sem er inn í main */
+    main{
+        height: auto;
+        padding: 30px;
+        font-family: 'Alata', sans-serif;
+        color: white;
+        background-image: url(Myndir/alvoru\ background.jpg);
+        background-size: cover;
+    
+    }
+    main blockquote{
+        padding: 20px;
+        background-color: rgba(128, 128, 128, 0.349);
+        border-radius: 10px;
+        
+    }
+    .green{
+        background-color: green;
+        color: green;
+    }
+    /* */
+    /* allt sem er í aside */
+    aside{
+        font-family: 'Alata', sans-serif;
+        color: white;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(44, 43, 43);
+    }
+    .skipta{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    aside img{
+        padding: 10px;
+        background-image: linear-gradient(yellow, grey);
+        width: 250px;
+        height: 250px;
+        
+    }
+    .lit{
+        color: yellow;
+    }
+    .nofn{
+        font-size: 15px;
+        color:yellow;
+    }
+    
+    /* allt sem er inni í section*/
+    article{
+        color: white;
+        max-width: 100%;
+        background-image: url(Myndir/platform.jpg);
+        background-size: cover;
+    }
+    .artskipting{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .logo{
+        padding: 30px;
+        border-radius: 10px;
+        height: 110px;
+        background-image: url(Myndir/lal.jpg);
+    }
+    article img{
+        margin: 0px;
+        width: 170px;
+        height: 170px;
+    }
+    .artskipt{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .litaskipt{
+        background-color: yellow;
+    }
+  
+
+    /* allt sem er inni í section2*/
+    .sect2{
+        padding: 15px;
+        color:white;
+        font-family: 'Alata', sans-serif;
+
+    }
+
+}
+@media screen and (min-width: 60em){
+    .midja{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    
+    }
+    span img{
+        width: 200px;
+        margin-left: 500px;
+        margin-top: 40px;
+    }
+    /**/
+    /*allt sem er inni í headernum */
+    header{
+        padding: 0;
+        margin: 0;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        line-height: 100%;
+        color: white;
+        background-image: url(Myndir/backaground.jpg);
+        
+    }
+    header h2{
+    
+        color: black;
+    
+    }
+    .box1{
+        padding: 10px;
+        background-image: linear-gradient(yellow, white);
+        width: 400px;
+        height: 200px;
+    }
+    .box2{
+       padding: 10px;
+        background-image: linear-gradient(yellow, white);
+        width: 400px;
+        height: 200px 
+    }
+    .hreyfing figure .box1{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .hreyfing figure:hover .box1{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    
+    header blockquote{
+        font-family: 'Anton', sans-serif;
+        font-size: 15px;
+        width: auto;
+        padding: 20px;
+        line-height: 40px;
+        border-radius: 40px;
+        background-image: linear-gradient(white 90%, yellow 10%);
+    
+    }
+
+    
+    /* allt sem er inni í nav */
+    nav{
+        font-family: 'Anton', sans-serif;
+        color: white;
+    }
+    .litur{
+        background-color: yellow;
+        color: yellow;
+    }
+    .skipting{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+    }
+    .sticky{
+        margin: 0;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: +1;
+        background-color: rgb(49, 47, 47);
+        position: -webkit-sticky;
+        position: sticky;
+        top: 1px;
+    
+    }
+    nav a{
+        font-family: 'Alata', sans-serif;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    nav a:hover{
+        color: black;
+        background-color: yellow;
+    }
+    /* allt sem er inn í main */
+    main{
+        height: auto;
+        padding: 30px;
+        font-family: 'Alata', sans-serif;
+        color: white;
+        background-image: url(Myndir/alvoru\ background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    
+    }
+    main blockquote{
+        padding: 20px;
+        background-color: rgba(128, 128, 128, 0.349);
+        border-radius: 10px;
+        
+    }
+    .green{
+        background-color: green;
+        color: green;
+    }
+    /* */
+    /* allt sem er í aside */
+    aside{
+        font-family: 'Alata', sans-serif;
+        color: white;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(44, 43, 43);
+    }
+    .skipta{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    aside img{
+        padding: 10px;
+        background-image: linear-gradient(yellow, grey);
+        width: 250px;
+        height: 250px;
+        
+    }
+    .lit{
+        color: yellow;
+    }
+    .nofn{
+        font-size: 15px;
+        color:yellow;
+    }
+    
+    /* allt sem er inni í section*/
+    article{
+        font-family: 'Anton', sans-serif;
+        color: white;
+        max-width: 100%;
+        background-image: url(Myndir/platform.jpg);
+        background-size: cover;
+    }
+    .artskipting{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .logo{
+        padding: 20px;
+        border-radius: 10px;
+        background-image: url(Myndir/lal.jpg);
+        
+    }
+    article img{
+        margin: 0px;
+        width: 250px;
+        height: 200px;
+    }
+    .artskipt{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .litaskipt{
+        background-color: yellow;
+    }
+  
+
+    /* allt sem er inni í section2*/
+    .sect2{
+        padding: 15px;
+        color:white;
+        font-family: 'Alata', sans-serif;
+
+    }
+    /* allt sem er í section3*/
+    /* allt sem er i sedction4*/
+    .sect4{
+        background-image: url(Myndir/Erangle);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10px;
+        color: white;
+    }
+    .sect4 h1{
+        font-family: 'Anton', sans-serif;
+        font-size: 50px;
+    }
+    .sect4 h2{
+        font-family: 'Alata', sans-serif;
+    }
+
+    .sect4colmun{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .sect4 blockquote{
+        border-radius: 10px;
+        padding:10px;
+        background-color: rgba(0, 0, 0, 0.432);
+    }
+    .miramar{
+        padding: 10px;
+        background-image: url(Myndir/Miramrar.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sanhok{
+        padding: 10px;
+        background-image: url(Myndir/Sanhok.jpg);
+    }
+    .vikendi{
+        padding: 10px;
+        background-image: url(Myndir/Vikendiu.jpg);
+    }
+
+}
+@media screen and (min-width: 80em){
+
+}
