@@ -295,13 +295,13 @@ footer p{
 footer blockquote{
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.253); 
-    padding: 10px;
+    padding: 5px;
 }
 footer a{
     border-radius: 10px;
     background-color: rgb(71, 69, 69);
-    padding: 10px;
-    height: 30px;
+    padding: 5px;
+    height: 20px;
 }
 footer a:hover{
     background-color: rgb(43, 42, 42);
@@ -320,11 +320,11 @@ footer a:hover{
     grid-template-columns: repeat(7,1fr)
 }
 footer img{
-    width: 30px;
+    width: 15px;
 }
 footer .youtube{
-    height: 30px;
-    width: 60px;
+    height: 20px;
+    width: 30px;
 }
 
 @media screen and (min-width: 30em){
@@ -549,6 +549,29 @@ article img{
     padding: 10px;
     background-color: rgba(104, 100, 100, 0.589);
 }
+/* allt sem er í footer */
+footer blockquote{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.253); 
+    padding: 10px;
+}
+footer a{
+    border-radius: 10px;
+    background-color: rgb(71, 69, 69);
+    padding: 10px;
+    height: 30px;
+}
+footer a:hover{
+    background-color: rgb(43, 42, 42);
+
+}
+footer img{
+    width: 30px;
+}
+footer .youtube{
+    height: 30px;
+    width: 60px;
+}
 
 
 }
@@ -755,6 +778,29 @@ article img{
         padding: 10px;
         background-color: rgba(104, 100, 100, 0.589);
     }
+    /* allt sem er inni í footer */
+    footer blockquote{
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.253); 
+        padding: 20px;
+    }
+    footer a{
+        border-radius: 10px;
+        background-color: rgb(71, 69, 69);
+        padding: 10px;
+        height: 30px;
+    }
+    footer a:hover{
+        background-color: rgb(43, 42, 42);
+    
+    }
+    footer img{
+        width: 30px;
+    }
+    footer .youtube{
+        height: 30px;
+        width: 60px;
+    }
 
 
 
@@ -943,6 +989,30 @@ article img{
         font-family: 'Alata', sans-serif;
 
     }
+    /* allt sem er inni í footer */
+    footer blockquote{
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.253); 
+        padding: 20px;
+    }
+    footer a{
+        border-radius: 10px;
+        background-color: rgb(71, 69, 69);
+        padding: 10px;
+        height: 30px;
+    }
+    footer a:hover{
+        background-color: rgb(43, 42, 42);
+    
+    }
+    footer img{
+        width: 30px;
+    }
+    footer .youtube{
+        height: 30px;
+        width: 60px;
+    }
+
 
 }
 @media screen and (min-width: 60em){
@@ -1173,6 +1243,29 @@ article img{
     .vikendi{
         padding: 10px;
         background-image: url(Myndir/Vikendiu.jpg);
+    }
+    /* allt sem er inni í footer */
+    footer blockquote{
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.253); 
+        padding: 20px;
+    }
+    footer a{
+        border-radius: 10px;
+        background-color: rgb(71, 69, 69);
+        padding: 10px;
+        height: 30px;
+    }
+    footer a:hover{
+        background-color: rgb(43, 42, 42);
+    
+    }
+    footer img{
+        width: 30px;
+    }
+    footer .youtube{
+        height: 30px;
+        width: 60px;
     }
 
 }
