@@ -2,12 +2,20 @@
     padding: 0;
     margin: 0 auto;
 }
+/* Þetta fer yfir allt html'ið og hefur þá áhrif á hreyinguna
+þannig að hún verði svona meira mjúk */
+html{
+    scroll-behavior: smooth;
+}
+
 /* allt sem er í body */
+
 body{
     background-color: rgb(49, 47, 47);
     margin: 0 auto;
     padding: 0;
 }
+
 span img{
     width: 0px;
     margin-left: 0px;
@@ -283,14 +291,49 @@ article img{
     font-family: 'Alata', sans-serif;
 
 }
+.bottomlitur{
+    background-color: rgb(43, 40, 40);
+}
+/* allt sem er inni í sectioninu "heimild" */
+.heimild{
+    padding: 10px;
+    font-family: 'Alata', sans-serif;
+    color: white;
+}
+.heimskipt{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+.heimild a{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    height: 15px;
+}
+.heimild a:hover{
+    background-color: rgb(66, 64, 64);
+}
+.heimild img{
+    background-image: linear-gradient(yellow,grey);
+    padding: 5px;
+    width: 100px;
+}
 /* allt sem er inni í footer */
 footer{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Alata', sans-serif;
     padding: 30px;
     color: white;
 }
+.footerskipting{
+    display: grid;
+    grid-template-columns: repeat(2,1fr)
+}
 footer p{
-    font-size: 10px;
+    font-size: 15px;
 }
 footer blockquote{
     border-radius: 10px;
@@ -311,10 +354,7 @@ footer a:hover{
     border-top: 10px solid grey;
     border-radius: 5px;
 }
-.hr2{
-    border-top: 5px solid grey;
 
-}
 .footerskipt{
     display: grid;
     grid-template-columns: repeat(7,1fr)
@@ -326,6 +366,7 @@ footer .youtube{
     height: 20px;
     width: 30px;
 }
+
 
 @media screen and (min-width: 30em){
 .midja{
@@ -1245,6 +1286,7 @@ footer .youtube{
         background-image: url(Myndir/Vikendiu.jpg);
     }
     /* allt sem er inni í footer */
+
     footer blockquote{
         border-radius: 10px;
         background-color: rgba(255, 255, 255, 0.253); 
@@ -1260,6 +1302,7 @@ footer .youtube{
         background-color: rgb(43, 42, 42);
     
     }
+
     footer img{
         width: 30px;
     }
@@ -1267,6 +1310,8 @@ footer .youtube{
         height: 30px;
         width: 60px;
     }
+
+    
 
 }
 @media screen and (min-width: 80em){
