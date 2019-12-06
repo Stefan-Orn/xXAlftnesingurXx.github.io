@@ -322,6 +322,18 @@ article img{
     padding: 5px;
     width: 100px;
 }
+/* allt sem er inni í video sectioninu */
+.video img{
+    width: 200px;
+}
+.video iframe{
+    padding: 5px;
+    background-image: linear-gradient(yellow,grey);
+}
+.videoskipt{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 /* allt sem er inni í footer */
 footer{
     font-family: 'Alata', sans-serif;
